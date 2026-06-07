@@ -9,14 +9,6 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-
-# Script ini sengaja dibuat sederhana mengikuti gaya praktikum ASA:
-# - data disimpan sebagai list of dict
-# - tabel DP dibuat eksplisit
-# - BFS memakai queue/agenda
-# - DFS memakai rekursi + memo
-# - output eksperimen ditulis ke CSV dan gambar PNG
-
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 RESULTS_DIR = ROOT / "results"
