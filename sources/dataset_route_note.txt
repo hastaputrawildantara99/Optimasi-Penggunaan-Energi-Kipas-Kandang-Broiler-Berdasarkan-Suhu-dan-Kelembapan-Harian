@@ -1,0 +1,12 @@
+Dataset route used in this study
+================================
+
+Primary candidate: https://data.mendeley.com/datasets/7fptd3rfzy/1
+DOI: 10.17632/7fptd3rfzy.1
+Status: metadata is public, but the public files API returned authorization-required in this environment.
+
+Fallback/comparison data used for the experiment: https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CRH2M%2CT2M_MAX%2CT2M_MIN%2CT2MWET&community=AG&longitude=110.4167&latitude=-6.9667&start=20220403&end=20220421&format=JSON&time-standard=LST
+Location: Semarang, Indonesia (-6.9667, 110.4167)
+Period: 2022-04-03 to 2022-04-21, aligned with the Mendeley poultry-house study period.
+Parameters: T2M, RH2M, T2M_MAX, T2M_MIN, T2MWET.
+Mendeley public API check: HTTP 401 Unauthorized.

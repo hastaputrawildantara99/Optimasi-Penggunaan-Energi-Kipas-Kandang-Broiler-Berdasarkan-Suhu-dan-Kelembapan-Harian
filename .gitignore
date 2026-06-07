@@ -1,0 +1,20 @@
+desktop.ini
+~$*
+*.tmp
+*.bak
+*.backup.docx
+* - Copy.docx
+
+# Assignment/template documents are kept locally for submission, not for the code repository.
+Proyek Makalah Analisis dan Strategi Algoritma 2026.pdf
+Template Proyek Makalah ASA 2026.docx
+Template Proyek Makalah ASA 2026.pdf
+Template Proyek Makalah ASA 2026.fixed.docx
+Template Proyek Makalah ASA 2026.fixed.pdf
+
+# Python/runtime noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
