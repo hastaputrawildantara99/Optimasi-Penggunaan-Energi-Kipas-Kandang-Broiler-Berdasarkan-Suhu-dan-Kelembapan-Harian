@@ -6,7 +6,7 @@ Repository ini berisi bahan eksperimen komputasional untuk makalah:
 
 ## Isi Repository
 
-- `src/fan_energy_optimization.py`: kode Python utama untuk mengambil data, menghitung THI, menjalankan algoritma, dan menghasilkan hasil eksperimen.
+- `src/fan_energy_optimization.py`: kode Python utama untuk mengambil data, menghitung THI, menjalankan algoritma, dan menghasilkan hasil eksperimen. Kode dibuat sederhana dengan `list`, `dict`, `csv`, dan struktur DP/BFS/DFS yang sesuai materi ASA.
 - `data/`: data NASA POWER yang digunakan sebagai fallback terbuka dan reprodusibel.
 - `results/`: ringkasan metrik dan detail hasil setiap metode.
 - `figures/`: grafik perbandingan energi dan THI.
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 python src/fan_energy_optimization.py
 ```
 
-Catatan: script lengkap juga berisi generator DOCX yang digunakan secara lokal bersama template makalah. Untuk reproduksi eksperimen, keluaran utama ada pada folder `data/`, `results/`, dan `figures/`.
+Keluaran utama ada pada folder `data/`, `results/`, dan `figures/`.
 
 ## Sumber Data
 
